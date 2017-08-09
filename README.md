@@ -51,17 +51,17 @@ width="650" height="150" alt="Flowchart" /></div>
 
 ## Program structure
 
-### Data transform and Image Matching
+### step 1: Data transform and Image Matching
 ```
-#### - step1.1_rawdata_rewrite.py
+- step1.1_rawdata_rewrite.py
 Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
 and save to new files, which would reduce the data size to 1/3, and would 
 save the data transforming time when read by the python
-#### - step1.2_space_match.py
+- step1.2_space_match.py
 Spatial template matching of sub-images
-#### - step1.3_temporal_match.py
+- step1.3_temporal_match.py
 Temporal template matching of sub-images
-#### - step1.4_testAB_stitch.py
+- step1.4_testAB_stitch.py
 Stitch images by cross-search among testA and testB set
 ```
 
