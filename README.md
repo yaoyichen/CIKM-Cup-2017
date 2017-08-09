@@ -11,7 +11,7 @@ hours based on historical radar reflectivity images.
 ## Introduction
 In the CIKM AnalytiCup 2017 challenge, contestants are provided with radar maps within 1.5 hours. Each radar map covers the radar reflectivity of the surrounding 101 km × 101 km areas of the target site. Radar maps are measured at different time spans, specifically 15 time spans with an interval of 6 minutes, and in 4 different heights from 0.5km to 3.5km with an interval of 1km. Therefore, 60 historical radar images are provided for one sample to predict the total precipitation amount on the ground in the future 1-2 hours for each target site.
 
-![]<div  align="center"> <img src="http://static.zybuluo.com/Jessy923/2x5adueuf0vggrhz0beq814j/flowchart.png" width="650" height="250" alt="Item-based filtering" /></div>
+[]<div  align="center"> <img src="http://static.zybuluo.com/Jessy923/2x5adueuf0vggrhz0beq814j/flowchart.png" width="650" height="250" alt="Item-based filtering" /></div>
 
 The dataset have been collected and desensitized by the Shenzhen Meteorological Bureau, during a total time span of 3 years, in which the first two years data are used for training and the third year for testing. Our task here is to predict the exact precipitation amount with the objective to minimize the prediction error. The root mean square error (RMSE) is used to evaluate the predicting performance in the contest.
 
@@ -33,8 +33,6 @@ In the pre-processing stage, sub-regional images are connected
  The SIFT descriptors are pair-matched between two adjacent time 
  frames to acquire the relative displacement in the time interval. 
  Then the velocity field could be derived from the relative displacement at each of key point. Resorting to Taylor frozen hypothesis [1], the trajectory that passes through the target site can be extrapolated. The features are generally classified into three categories. The local radar images (41 × 41 km) along the extrapolated trace can provide direct association between radar reflection and precipitation. The temporal and altitudinal vectors describe the evolution of radar reflective statistics along different time frames and radar observation heights. The cloud pattern vector depicts the cloud type in the whole image area (101 × 101 km), which is embedded as the histogram of reflective intensity and SIFT descriptor classes. Convolution neural network model is adopted and the architecture is shown in the Figure. Local images are fed into a 3-layer convolution neural net and each layer includes a 4 × 4 convolution kernel and a 2 × 2 max pooling kernel. Then the output images are flattened and concatenated with other two types of features, and passed to a 3-layer fully connected neural net with the precipitation required to be predicted at the output layer.
-<div  align="center"> <img src= './pic/flowchart.png'
-width="650" height="150" alt="Flowchart" /></div>
 
 
 ## Requirements
@@ -54,7 +52,7 @@ width="650" height="150" alt="Flowchart" /></div>
 ### step 1: Data transform and Image Matching
 ```
 - step1.1_rawdata_rewrite.py
-Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
+##### Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
 and save to new files, which would reduce the data size to 1/3, and would 
 save the data transforming time when read by the python
 - step1.2_space_match.py
