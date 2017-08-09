@@ -1,13 +1,16 @@
 # CIKM AnalytiCup 2017: Short-Term Precipitation Forecasting Based on Radar Reflectivity Images
 
 This repo describes the final solution of Team Marmot, 
-who finished in 1<sup>st</sup> place in the [CIKM AnalytiCup 2017]
-(https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.3f6e7d83jNRFTh&raceId=231596) – 
+who finished in 1<sup>st</sup> place in the [CIKM AnalytiCup 2017](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.3f6e7d83jNRFTh&raceId=231596) – 
 "Short-Term Quantitative Precipitation Forecasting Challenge"
 sponsored by Shenzhen Meteorological Bureau and Alibaba Group. 
 We provide an approach to reasonably predict 
 the short-term precipitation at the target site in the future 1-2 
 hours based on historical radar reflectivity images. 
+
+
+## Framework
+
 The current solution regards cloud trajectory method based on velocity 
 vector obtained by the SIFT (Scale-invariant feature transform) 
 algorithm which matches descriptors in the adjacent time frames. 
@@ -15,7 +18,7 @@ Convolutional neural network is adopted with features including
 pinpoint local radar images, spatial-temporal descriptions of the 
 cloud movement, and the global description of the cloud pattern.  
 
-## Framework
+
 The framework of the current solution is shown in the figure below.
 In the pre-processing stage, sub-regional images are connected
  by template matching and formed into large domain panorama. 
