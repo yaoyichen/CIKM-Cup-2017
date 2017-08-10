@@ -54,66 +54,66 @@ In the pre-processing stage, sub-regional images are connected
 ### step 1: Data transform and Image Matching
 ```
 - step1.1_rawdata_rewrite.py
-##### Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
+"Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
 and save to new files, which would reduce the data size to 1/3, and would 
-save the data transforming time when read by the python
+save the data transforming time when read by the python"
 - step1.2_space_match.py
-Spatial template matching of sub-images
+"Spatial template matching of sub-images"
 - step1.3_temporal_match.py
-Temporal template matching of sub-images
+"Temporal template matching of sub-images"
 - step1.4_testAB_stitch.py
-Stitch images by cross-search among testA and testB set
+"Stitch images by cross-search among testA and testB set"
 ```
 
-### Local Descriptor and Trace Tracking
+### step 2:Local Descriptor and Trace Tracking
 ```
-#### - step2.1_SIFT_descriptor.py
-Calculate the histogram of SIFT descriptors 
+- step2.1_SIFT_descriptor.py
+"Calculate the histogram of SIFT descriptors"
 
-#### - step2.2_trajectory.py
-Calculate the extrapolated trajectory at each of the target site
+- step2.2_trajectory.py
+"Calculate the extrapolated trajectory at each of the target site"
 ```
-### Feature Generation
+### step 3:Feature Generation
 ```
-#### - step3.1_trajectory_image.py
-Generate local image feature at the surroudning area
-of the extrapolation time stamp. 
+- step3.1_trajectory_image.py
+"Generate local image feature at the surroudning area
+of the extrapolation time stamp. "
 
-#### - step3.2_temporal_spatial_vector.py
-Generate temporal and altitudinal vector
+- step3.2_temporal_spatial_vector.py
+"Generate temporal and altitudinal vector"
 
-#### - step3.3_general_description.py
-Generate global description of the cloud pattern 
+- step3.3_general_description.py
+"Generate global description of the cloud pattern"
 
-#### - step3.4_flatten_noniamge_feature.py
-Package features in step3.2 and step3.3 and save as binary array
+- step3.4_flatten_noniamge_feature.py
+"Package features in step3.2 and step3.3 and save as binary array"
 
-#### - step3.5_patch.py
-Package features for neural network model and save as binary array
+- step3.5_patch.py
+"Package features for neural network model and save as binary array"
 ```
 
-### Traing Models
+### step 4:Traing Models
 ```
-#### - step4.1_cnn_simple.py
-Convolutional neural network training
+- step4.1_cnn_simple.py
+"Convolutional neural network training"
 
-#### - step4.2_nn_patch.py
-Neural net training for samples without tracked local image 
+- step4.2_nn_patch.py
+"Neural net training for samples without tracked local image"
 
-#### - step4.3_nn.py
-neural network model
+- step4.3_nn.py
+"neural network model"
 
 
-#### - step4.4_gbdt.py
-GBDT(gradient boosting decision tree model)
+- step4.4_gbdt.py
+"GBDT(gradient boosting decision tree model)"
 
-#### - step4.5_submit.py
-Model ensemble and submit  
+- step4.5_submit.py
+"Model ensemble and submit"
 ```
 ### TOOLS
 ```
 #### - CIKM_TOOLS.py
-import libs and commonly used functions
+"import libs and commonly used functions"
 ```
 
 
