@@ -18,8 +18,7 @@ hours based on historical radar reflectivity images.
 In the CIKM AnalytiCup 2017 challenge, contestants are provided with radar maps within 1.5 hours. Each radar map covers the radar reflectivity of the surrounding 101 km × 101 km areas of the target site. Radar maps are measured at different time spans, specifically 15 time spans with an interval of 6 minutes, and in 4 different heights from 0.5km to 3.5km with an interval of 1km. Therefore, 60 historical radar images are provided for one sample to predict the total precipitation amount on the ground in the future 1-2 hours for each target site.
 
 The dataset have been collected and desensitized by the Shenzhen Meteorological Bureau, during a total time span of 3 years, in which the first two years data are used for training and the third year for testing. Our task here is to predict the exact precipitation amount with the objective to minimize the prediction error. The root mean square error (RMSE) is used to evaluate the predicting performance in the contest.
-
-<div  align="center"> <img src="http://static.zybuluo.com/Jessy923/dmc8aal4i1k5mfsak1flsif9/data_format.jpg" width="650" height="200" alt="Data format" /></div>
+<p align="center"><img src="http://static.zybuluo.com/Jessy923/dmc8aal4i1k5mfsak1flsif9/data_format.jpg" width="650" height="200" alt="Data format" /></p>
 
 ---------
 
