@@ -15,8 +15,6 @@ In the CIKM AnalytiCup 2017 challenge, contestants are provided with radar maps 
 <div  align="center"> <img src="http://static.zybuluo.com/Jessy923/dmc8aal4i1k5mfsak1flsif9/data_format.jpg" width="600" height="200" alt="Data format" /></div>
 
 
-
-
 The dataset have been collected and desensitized by the Shenzhen Meteorological Bureau, during a total time span of 3 years, in which the first two years data are used for training and the third year for testing. Our task here is to predict the exact precipitation amount with the objective to minimize the prediction error. The root mean square error (RMSE) is used to evaluate the predicting performance in the contest.
 
 ## Framework
