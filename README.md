@@ -11,6 +11,8 @@ hours based on historical radar reflectivity images.
 ## Introduction
 In the CIKM AnalytiCup 2017 challenge, contestants are provided with radar maps within 1.5 hours. Each radar map covers the radar reflectivity of the surrounding 101 km × 101 km areas of the target site. Radar maps are measured at different time spans, specifically 15 time spans with an interval of 6 minutes, and in 4 different heights from 0.5km to 3.5km with an interval of 1km. Therefore, 60 historical radar images are provided for one sample to predict the total precipitation amount on the ground in the future 1-2 hours for each target site.
 
+<div  align="center"> <img src="http://static.zybuluo.com/Jessy923/dmc8aal4i1k5mfsak1flsif9/data_format.jpg" width="650" height="250" alt="Data format" /></div>
+
 
 <div  align="center"> <img src="http://static.zybuluo.com/Jessy923/2x5adueuf0vggrhz0beq814j/flowchart.png" width="650" height="250" alt="Item-based filtering" /></div>
 
