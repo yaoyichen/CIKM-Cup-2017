@@ -71,10 +71,13 @@ In the pre-processing stage, sub-regional images are connected
 "Transform the data type from ascii to ubyte format (8 bits unsigned binary) 
 and save to new files, which would reduce the data size to 1/3, and would 
 save the data transforming time when read by the python"
+
 - step1.2_space_match.py
 "Spatial template matching of sub-images"
+
 - step1.3_temporal_match.py
 "Temporal template matching of sub-images"
+
 - step1.4_testAB_stitch.py
 "Stitch images by cross-search among testA and testB set"
 ```
@@ -116,7 +119,6 @@ of the extrapolation time stamp. "
 
 - step4.3_nn.py
 "neural network model"
-
 
 - step4.4_gbdt.py
 "GBDT(gradient boosting decision tree model)"
