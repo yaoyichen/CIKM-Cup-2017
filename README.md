@@ -109,7 +109,7 @@ of the extrapolation time stamp. "
 "Package features for neural network model and save as binary array"
 ```
 
-### step 4:Traing Models
+### step 4:Training Models
 ```
 - step4.1_cnn_simple.py
 "Convolutional neural network training"
