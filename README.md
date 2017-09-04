@@ -44,6 +44,10 @@ In the pre-processing stage, sub-regional images are connected
  frames to acquire the relative displacement in the time interval. 
  Then the velocity field could be derived from the relative displacement at each of key point. Resorting to Taylor frozen hypothesis [1], the trajectory that passes through the target site can be extrapolated. The features are generally classified into three categories. The local radar images (41 × 41 km) along the extrapolated trace can provide direct association between radar reflection and precipitation. The temporal and altitudinal vectors describe the evolution of radar reflective statistics along different time frames and radar observation heights. The cloud pattern vector depicts the cloud type in the whole image area (101 × 101 km), which is embedded as the histogram of reflective intensity and SIFT descriptor classes. Convolution neural network model is adopted and the architecture is shown in the Figure. Local images are fed into a 3-layer convolution neural net and each layer includes a 4 × 4 convolution kernel and a 2 × 2 max pooling kernel. Then the output images are flattened and concatenated with other two types of features, and passed to a 3-layer fully connected neural net with the precipitation required to be predicted at the output layer.
 
+---------
+## Detailed Solution report
+- Check the pdf file For detailed Solution report.
+- Or visit the __Chinese__ version of solution report contributed by Team member Jessy [CIKM solution](https://github.com/Jessicamidi/CIKM-Cup-2017/blob/master/README.md)
 
 ---------
 
