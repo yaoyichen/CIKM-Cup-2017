@@ -47,7 +47,7 @@ In the pre-processing stage, sub-regional images are connected
 ---------
 ## Detailed Solution report
 - Check the pdf file For detailed Solution report.
-- Or visit the __Chinese__ version of solution report contributed by Team member Jessy [CIKM solution](https://github.com/Jessicamidi/CIKM-Cup-2017/blob/master/README.md)
+- Or visit the __Chinese__ version of solution report contributed by Team member Jessy [CIKM 中文解题报告](https://github.com/Jessicamidi/CIKM-Cup-2017/blob/master/README.md)
 
 ---------
 
