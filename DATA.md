@@ -11,7 +11,7 @@ password： ztui
 4. According to the latitude and longitude of a target site, each radar map covers an area of 101km x 101km around the site. The area is marked as [101x101] grids, and the target site is located at the centre, i.e. (50, 50).
 
 ### Privacy and Legality
-Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the data provided in this competition. The data should be used for the competition and research purpose only. All the data are provided by the bureau and will be carefully anonymized and processed.
+__Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the data provided in this competition.__ The data should be used for the competition and research purpose only. All the data are provided by the bureau and will be carefully anonymized and processed.
 
 
 ### 数据描述
@@ -28,4 +28,4 @@ Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the da
 
 
 ### 隐私和合法性
-深圳市气象局和阿里巴巴集团保留本次比赛数据的版权。 数据仅用于比赛和研究目的。 所有数据由深圳气象局提供，并已全部做过脱敏处理。
+__深圳市气象局和阿里巴巴集团保留本次比赛数据的版权。__ 数据仅用于比赛和研究目的。 所有数据由深圳气象局提供，并已全部做过脱敏处理。
