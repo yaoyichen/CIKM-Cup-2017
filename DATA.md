@@ -3,6 +3,9 @@ site: https://pan.baidu.com/s/1nvbtrZF
 
 password： ztui
 
+-------------------------------------
+
+
 ### Data Description
 > The dataset contains real radar map information and the rainfall amounts of different sites collected by meteorological observatory centers. The dataset covers several dimensions as follows:
 1. Each radar map contains one target site that located at the centre of the map;
@@ -12,6 +15,8 @@ password： ztui
 
 ### Privacy and Legality
 __Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the data provided in this competition.__ The data should be used for the competition and research purpose only. All the data are provided by the bureau and will be carefully anonymized and processed.
+
+-------------------------------------
 
 
 ### 数据描述
@@ -29,3 +34,8 @@ __Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the 
 
 ### 隐私和合法性
 __深圳市气象局和阿里巴巴集团保留本次比赛数据的版权。__ 数据仅用于比赛和研究目的。 所有数据由深圳气象局提供，并已全部做过脱敏处理。
+
+
+-------------------------------------
+
+
