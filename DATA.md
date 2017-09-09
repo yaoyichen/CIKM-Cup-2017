@@ -8,9 +8,7 @@ password： ztui
 1. Each radar map contains one target site that located at the centre of the map;
 2. A radar map may be labeled with a target site’s rainfall amount between future 1-hour and 2-hour. Note that, we don’t consider to predict rainfall amount within the future 1-hour in this task.
 3. Radar maps are measured at different time spans, i.e., 15 time spans with an interval of 6 minutes, and different heights, i.e., 4 heights, from 0.5km to 3.5km with an interval of 1km; 
-4. According to the latitude and longitude of a target site, each radar map covers an area of 101*101km2 around the site. The area is marked as 101*101 grids, and the target site is located at the centre, i.e. (50, 50).
-The data is illustrated as follows:
-
+4. According to the latitude and longitude of a target site, each radar map covers an area of 101km x 101km around the site. The area is marked as [101x101] grids, and the target site is located at the centre, i.e. (50, 50).
 
 ### Privacy and Legality
 Shenzhen Meteorological Bureau and Alibaba Group reserve the copyright of the data provided in this competition. The data should be used for the competition and research purpose only. All the data are provided by the bureau and will be carefully anonymized and processed.
