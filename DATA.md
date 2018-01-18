@@ -1,7 +1,7 @@
 ### Data of the current repository can be downloaded through the following link.
-site: https://pan.baidu.com/s/1nvbtrZF
 
-password can be accessed with the permission from Shenzhen Meteorological Bureau
+
+data can be accessed with the permission from Shenzhen Meteorological Bureau
 
 -------------------------------------
 
